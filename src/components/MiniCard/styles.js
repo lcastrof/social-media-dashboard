@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { lighten, darken, linearGradient } from 'polished';
+import { lighten, darken } from 'polished';
 
 function getChangedColor(theme) {
   if(theme === 'dark'){

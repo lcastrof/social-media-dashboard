@@ -61,5 +61,6 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+    outline: 0;
   }
 `;
