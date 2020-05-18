@@ -28,8 +28,8 @@ export default function Dashboard ({ toggleTheme }) {
             height={25}
             width={50}
             handleDiameter={18}
-            offColor={colors.switch.on}
-            onColor={colors.switch.off}
+            onColor={colors.switch.on}
+            offColor={colors.switch.off}
           />
         </div>
       </header>

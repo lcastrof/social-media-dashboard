@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import { Container } from '../components/MainCard/styles';
 
 export default createGlobalStyle`
   * {

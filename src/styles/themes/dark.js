@@ -8,8 +8,7 @@ export default {
     cardText: 'hsl(228, 34%, 66%)',
     text: '#fff',
     switch: {
-      on:'#73E4B7',
-      off: '#4083E6',
+      on: '#4083E6',
     },
   }
 }
