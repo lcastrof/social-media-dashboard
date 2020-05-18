@@ -16,17 +16,22 @@ export default function Dashboard ({ toggleTheme }) {
           <p className="main">Social Media Dashboard</p>
           <p className="sub">Total Followers: 23,004</p>
         </div>
-        <Switch
-          onChange={toggleTheme}
-          checked={title === 'dark'}
-          checkedIcon={false}
-          uncheckedIcon={false}
-          height={25}
-          width={50}
-          handleDiameter={18}
-          offColor={colors.switch.on}
-          onColor={colors.switch.off}
-        />
+        <section className="bar"/>
+        <div className="dark">
+          <span>Dark Mode</span>
+          <Switch
+            className="switcher"
+            onChange={toggleTheme}
+            checked={title === 'dark'}
+            checkedIcon={false}
+            uncheckedIcon={false}
+            height={25}
+            width={50}
+            handleDiameter={18}
+            offColor={colors.switch.on}
+            onColor={colors.switch.off}
+          />
+        </div>
       </header>
 
       <div className="mainCards">
