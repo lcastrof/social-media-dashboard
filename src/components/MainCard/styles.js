@@ -39,10 +39,9 @@ export const Container = styled.button`
   height: 240px;
   background: ${props => props.theme.colors.cardBackground};
   color: ${props => props.theme.colors.cardText};
-  display: flex;
-  flex-direction: column;
+
   border: 0;
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px;
 
   transition: transform  0.2s, opacity 0.2s;
 
@@ -52,10 +51,7 @@ export const Container = styled.button`
   }
 
   header#cards{
-    display: flex;
     padding: 10px;
-    align-items: center;
-    justify-content: center;
 
     img{
       margin-right: 8px;
@@ -63,10 +59,6 @@ export const Container = styled.button`
   }
 
   .main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 12px;
     margin-bottom: 50px;
 
@@ -79,8 +71,16 @@ export const Container = styled.button`
 
 `;
 
-export const BarColor = styled.span`
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const BarColor = styled.div`
     width: 100%;
+    position: relative;
+    bottom: 10px;
     border-radius: 30px 30px 0 0;
     height: 4px;
     margin-bottom: 20px;

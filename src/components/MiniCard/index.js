@@ -42,7 +42,7 @@ const MiniCard = ({ type, name, number, percentage, arrow }) => {
 
   return (
     <Container type={type}>
-      <div className="names">
+      <div className="items">
         <p className="type">{`${name}`}</p>
         <p className="number">{number}</p>
       </div>

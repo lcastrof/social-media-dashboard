@@ -7,14 +7,14 @@ import instagram from '../../images/icon-instagram.svg';
 import arrowUp from '../../images/icon-up.svg';
 import arrowDown from '../../images/icon-down.svg';
 
-import { Container, BarColor, Bottom } from './styles';
+import { Container, BarColor, Bottom, Content } from './styles';
 
-const MainCard = ({ type, name, followers, today, arrow }) => {
+const MainCard = ({ social, name, followers, today, arrow }) => {
 
-  function getIcon(type) {
+  function getIcon(social) {
     let icon = facebook;
 
-    switch (type) {
+    switch (social) {
       case 'twitter':
         icon = twitter;
         break;
@@ -41,20 +41,22 @@ const MainCard = ({ type, name, followers, today, arrow }) => {
   }
 
   return (
-    <Container type={type}>
-      <BarColor barColor={type}/>
-      <header id="cards">
-        <img src={getIcon(type)} alt={type}/>
-        {`${name}`}
-      </header>
-      <div className="main">
-        <p>{followers}</p>
-        F O L L O W E R S
-      </div>
-      <Bottom arrowType={arrow}>
-        <img src={getArrow(arrow)} alt="arrow icon"/>
-        {`${today} Today`}
-      </Bottom>
+    <Container social={social}>
+      <BarColor barColor={social}/>
+        <Content>
+        <header id="cards">
+          <img src={getIcon(social)} alt={social}/>
+          {`${name}`}
+        </header>
+        <div className="main">
+          <p>{followers}</p>
+          F O L L O W E R S
+        </div>
+        <Bottom arrowsocial={arrow}>
+          <img src={getArrow(arrow)} alt="arrow icon"/>
+          {`${today} Today`}
+        </Bottom>
+        </Content>
     </Container>
   );
 }

@@ -12,6 +12,7 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
+    width: 100%;
     background: ${props => props.theme.colors.background};
     font-size: 14px;
     font-family: 'Inter', sans-serif;
@@ -32,7 +33,7 @@ export default createGlobalStyle`
     margin: 0 auto;
     padding: 40px 20px;
 
-    @media (max-width: 1009px) {
+    @media (max-width: 1010px) {
 
       button{
         margin-bottom: 15px;

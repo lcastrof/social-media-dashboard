@@ -35,23 +35,23 @@ export default function Dashboard ({ toggleTheme }) {
       </header>
 
       <div className="mainCards">
-        <MainCard type='facebook' name='@nathanf' followers='1987' today='12'></MainCard>
-        <MainCard type='twitter' name='@nathanf' followers='1044' today='99'></MainCard>
-        <MainCard type='instagram' name='@realnathanf' followers='11k' today='1099'></MainCard>
-        <MainCard type='youtube' name='Nathan F.' followers='8239' today='144' arrow='down'></MainCard>
+        <MainCard social='facebook' name='@nathanf' followers='1987' today='12'></MainCard>
+        <MainCard social='twitter' name='@nathanf' followers='1044' today='99'></MainCard>
+        <MainCard social='instagram' name='@realnathanf' followers='11k' today='1099'></MainCard>
+        <MainCard social='youtube' name='Nathan F.' followers='8239' today='144' arrow='down'></MainCard>
       </div>
 
       <Overview>
         <p className="title">Overview - Today</p>
         <div className="miniCards">
-        <MiniCard type='facebook' name='Page Views' number='87' percentage='3%'/>
-        <MiniCard type='facebook' name='Likes' number='52' percentage='2%' arrow='down'/>
-        <MiniCard type='instagram' name='Likes' number='5462' percentage='2257%'/>
-        <MiniCard type='instagram' name='Profile Views' number='52k' percentage='1375%'/>
-        <MiniCard type='twitter' name='Retweets' number='117' percentage='303%'/>
-        <MiniCard type='twitter' name='Likes' number='507' percentage='553%'/>
-        <MiniCard type='youtube' name='Likes' number='107' percentage='19%'/>
-        <MiniCard type='youtube' name='Total Views' number='1407' percentage='12%'/>
+        <MiniCard social='facebook' name='Page Views' number='87' percentage='3%'/>
+        <MiniCard social='facebook' name='Likes' number='52' percentage='2%' arrow='down'/>
+        <MiniCard social='instagram' name='Likes' number='5462' percentage='2257%'/>
+        <MiniCard social='instagram' name='Profile Views' number='52k' percentage='1375%'/>
+        <MiniCard social='twitter' name='Retweets' number='117' percentage='303%'/>
+        <MiniCard social='twitter' name='Likes' number='507' percentage='553%'/>
+        <MiniCard social='youtube' name='Likes' number='107' percentage='19%'/>
+        <MiniCard social='youtube' name='Total Views' number='1407' percentage='12%'/>
         </div>
       </Overview>
     </Container>

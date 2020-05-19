@@ -24,6 +24,7 @@ export const Container = styled.button`
   background: ${props => props.theme.colors.cardBackground};
   color: ${props => props.theme.colors.cardText};
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   border: 0;
   transition: transform  0.2s, opacity 0.2s;
@@ -36,12 +37,12 @@ export const Container = styled.button`
     background: ${props => getChangedColor(props.theme.title)};
   }
 
-  .names{
+  .items{
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
     align-items: flex-start;
+    min-height: 80px;
 
     p.type{
       font-size: 14px;
@@ -54,6 +55,7 @@ export const Container = styled.button`
   }
 
   .iconPercentage{
+    min-height: 80px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
