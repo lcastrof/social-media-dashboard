@@ -50,8 +50,8 @@ export default function Dashboard ({ toggleTheme }) {
         <MiniCard social='instagram' name='Profile Views' number='52k' percentage='1375%'/>
         <MiniCard social='twitter' name='Retweets' number='117' percentage='303%'/>
         <MiniCard social='twitter' name='Likes' number='507' percentage='553%'/>
-        <MiniCard social='youtube' name='Likes' number='107' percentage='19%'/>
-        <MiniCard social='youtube' name='Total Views' number='1407' percentage='12%'/>
+        <MiniCard social='youtube' name='Likes' number='107' percentage='19%' arrow='down' />
+        <MiniCard social='youtube' name='Total Views' number='1407' percentage='12%' arrow='down' />
         </div>
       </Overview>
     </Container>
