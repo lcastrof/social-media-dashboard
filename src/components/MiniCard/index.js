@@ -48,7 +48,7 @@ const MiniCard = ({ social, name, number, percentage, arrow }) => {
       </div>
       <div className="iconPercentage">
         <img src={getIcon(social)} alt={social}/>
-        <Bottom arrowsocial={arrow}>
+        <Bottom arrowType={arrow}>
           <img src={getArrow(arrow)} alt="arrow icon"/>
           <p className="percentageNumber">{percentage}</p>
         </Bottom>

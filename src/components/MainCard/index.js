@@ -52,7 +52,7 @@ const MainCard = ({ social, name, followers, today, arrow }) => {
           <p>{followers}</p>
           F O L L O W E R S
         </div>
-        <Bottom arrowsocial={arrow}>
+        <Bottom arrowType={arrow}>
           <img src={getArrow(arrow)} alt="arrow icon"/>
           {`${today} Today`}
         </Bottom>
