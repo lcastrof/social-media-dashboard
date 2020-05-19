@@ -33,7 +33,7 @@ export default createGlobalStyle`
     margin: 0 auto;
     padding: 40px 20px;
 
-    @media (max-width: 1010px) {
+    @media (max-width: 1040px) {
 
       button{
         margin-bottom: 15px;
@@ -41,7 +41,7 @@ export default createGlobalStyle`
 
     }
 
-    @media (max-width: 520px) {
+    @media (max-width: 540px) {
 
       button{
         width: 100%;

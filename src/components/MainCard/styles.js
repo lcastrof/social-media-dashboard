@@ -39,6 +39,7 @@ export const Container = styled.button`
   height: 240px;
   background: ${props => props.theme.colors.cardBackground};
   color: ${props => props.theme.colors.cardText};
+  margin: 0 5px;
 
   border: 0;
   border-radius: 5px;
