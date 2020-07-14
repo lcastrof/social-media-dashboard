@@ -35,7 +35,7 @@ $ cd vuttr-api
 $ yarn install
 ```
 
-### Run
+### Running
 ```bash
 $ yarn start
 ```
