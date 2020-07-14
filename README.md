@@ -6,7 +6,7 @@
 <img width="100%" src="screenshots/dashboard.gif">
 
 ## 📜 About the project
-This project is a layout challenge that can be found [here](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). I've used this layout to improve my ReactJS skills and to learn some things about themes and dark mode with React Context.
+This project is a responsive layout challenge that can be found [here](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). I've used this layout to improve my ReactJS skills, learn more about responsivity and to learn some things about themes and dark mode with React Context.
 
 ## 🚀 Deploy
 You can access the aplication following this link: https://social-media-dashboard-659anfpjj.now.sh/
