@@ -3,7 +3,7 @@
 
 ---
 
-<img align="center" src="screenshots/dashboard.gif">
+<img width="100%" src="screenshots/dashboard.gif">
 
 ## 📜 About the project
 This project is a layout challenge that can be found [here](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). I've used this layout to improve my ReactJS skills and to learn some things about themes and dark mode with React Context.
@@ -29,7 +29,7 @@ You can access the aplication following this link: https://social-media-dashboar
 $ git clone https://github.com/lcastrof/social-media-dashboard
 
 # Access directory
-$ cd vuttr-api
+$ cd social-media-dashboard
 
 # Install dependencies
 $ yarn install
